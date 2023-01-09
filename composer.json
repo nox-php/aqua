@@ -1,0 +1,30 @@
+{
+	"name": "nox-php/aqua",
+	"description": "A blue LastChaos game server theme.",
+	"keywords": [
+		"nox",
+		"last-chaos",
+		"nox-theme"
+	],
+	"require": {
+		"php": "^8.1",
+		"laravel/framework": "^9.46"
+	},
+	"autoload": {
+		"psr-4": {
+			"Nox\\Aqua\\": "src"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Nox\\Aqua\\AquaServiceProvider"
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
